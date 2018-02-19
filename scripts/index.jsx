@@ -4,9 +4,9 @@ import React from 'react';
 
 const ImgViewer = (props) => {
   const src_a = [
-    'http://www.armoredcore.net/acvd/static/images/top/top_contents.png',
-    'http://www.armoredcore.net/top/pc/images/slider/acvd.jpg',
-    'http://www.armoredcore.net/acvd/static/images/bg/top3.jpg',
+    'https://cdn.pixabay.com/photo/2017/12/15/11/14/outdoor-3020882_960_720.jpg',
+    'https://cdn.pixabay.com/photo/2015/06/15/01/04/water-809799_960_720.jpg',
+    'https://cdn.pixabay.com/photo/2014/06/21/14/25/water-373780_960_720.jpg',
   ];
   return (
     <div style={{textAlign: 'center'}}>
