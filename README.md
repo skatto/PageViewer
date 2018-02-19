@@ -11,4 +11,4 @@
 	$ npm install
 	$ webpack
 
-And open 'PageViewer/index.html' with your browser.
+And open `PageViewer/index.html` with your browser.
