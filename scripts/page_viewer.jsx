@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import styles from '../css/page_viewer.css';
 
 const BallBar = (props) => {
   let balls = [];
@@ -104,8 +105,8 @@ class PageViewer extends React.Component {
     return (
       <div style={{position: 'relative', 
                    backgroundColor: this.props.background}}>
-        <div
-         style={{overflowY: 'scroll', height: this.props.height +'px'}}
+        <div className={styles.scrollable}
+         style={{height: this.props.height +'px'}}
          onScroll={this.onScroll} ref="outer">
           <div style={{
            width: 'calc(100% - 20px)',
